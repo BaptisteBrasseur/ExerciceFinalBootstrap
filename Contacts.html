@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr-BE"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Contacts</title>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Sylphe_SARL_(Logo)-LGPE.png" alt="logo de la Sylphe S.A.R.L." width="30" height="62"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav0"
+                    aria-controls="navbarNav0" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav0">
+                <ul class="navbar-nav nav-underline">
+                    <li class="nav-item">
+                        <a class="nav-link"  href="Acceuil.html">Acceuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Produits.html">Produits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="A_propos.html">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Contacts.html">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<h1 class="text-center">Contacts</h1>
+<a class="visually-hidden-focusable" href="#">#</a>
+<p class="text-start ms-3">Si vous souhaitez nous poser des questions, n'hésitez pas à nous écrire au "123, rue du progrès 7896 Safrania",
+    à nous téléphoner au "023.45.78.12", à nous contacter par e-mail via l'adresse "sylphesarl@corp.jp" ou
+    en complétant le formulaire ci-dessous.</p>
+<form action="http://zamboyle.synology.me:2727/forms/demos/showvars.php" method="POST">
+    <p>
+        <label for="nom" class="text-start ms-3">Nom :</label>
+        <input type="text" id="nom" name="nom[]" aria-required="true" required autofocus> *
+    </p>
+    <p>
+        <label for="prenom" class="text-start ms-3">Prénom :</label>
+        <input type="text" id="prenom" name="prenom[]" aria-required="true" required> *
+    </p>
+    <p>
+        <label for="email" class="text-start ms-3">E-mail (exemple: bulm@brief.corp):</label>
+        <input type="email" id="email" name="email[]" aria-required="true" required> *
+    </p>
+    <p>
+    <label for="contact" class="form-label ms-3">Message :</label>
+        <input class="form-control ms-3" type="text" id="contact" name="contact">
+    </p>
+    <input type="submit" class="btn btn-primary ms-3" value="Envoyer">
+</form>
+<footer>
+    <div class="container">
+        <p class="text-start ms-3">© 2024 - Sylphe S.A.R.L.</p>
+    </div>
+</footer>
+</body>
+</html>
